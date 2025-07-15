@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A0B5F9D2E15A324004B5CBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B5F9C2E15A324004B5CBE /* AppDelegate.swift */; };
+		7A0B5F9F2E15A324004B5CBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B5F9E2E15A324004B5CBE /* SceneDelegate.swift */; };
+		7A0B5FA42E15A324004B5CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0B5FA22E15A324004B5CBE /* Main.storyboard */; };
+		7A0B5FA62E15A327004B5CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0B5FA52E15A327004B5CBE /* Assets.xcassets */; };
+		7A0B5FA92E15A327004B5CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0B5FA72E15A327004B5CBE /* LaunchScreen.storyboard */; };
+		7A0B5FC42E15A41F004B5CBE /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B5FC32E15A41F004B5CBE /* TeamsViewController.swift */; };
+		7A0B5FC62E15A42C004B5CBE /* TeamsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B5FC52E15A42C004B5CBE /* TeamsCollectionViewCell.swift */; };
+		7A0B5FC92E15A441004B5CBE /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B5FC82E15A441004B5CBE /* MatchViewController.swift */; };
+		7A0B5FCC2E15A47F004B5CBE /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B5FCB2E15A47F004B5CBE /* Consts.swift */; };
+		7A0B5FCE2E15A49A004B5CBE /* TeamScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B5FCD2E15A49A004B5CBE /* TeamScoreView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A0B5F992E15A324004B5CBE /* cricket-simulator-application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cricket-simulator-application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0B5F9C2E15A324004B5CBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A0B5F9E2E15A324004B5CBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A0B5FA32E15A324004B5CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A0B5FA52E15A327004B5CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A0B5FA82E15A327004B5CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A0B5FAA2E15A327004B5CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0B5FC32E15A41F004B5CBE /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
+		7A0B5FC52E15A42C004B5CBE /* TeamsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsCollectionViewCell.swift; sourceTree = "<group>"; };
+		7A0B5FC82E15A441004B5CBE /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
+		7A0B5FCB2E15A47F004B5CBE /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		7A0B5FCD2E15A49A004B5CBE /* TeamScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamScoreView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A0B5F962E15A324004B5CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A0B5F902E15A324004B5CBE = {
+			isa = PBXGroup;
+			children = (
+				7A0B5F9B2E15A324004B5CBE /* cricket-simulator-application */,
+				7A0B5F9A2E15A324004B5CBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A0B5F9A2E15A324004B5CBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A0B5F992E15A324004B5CBE /* cricket-simulator-application.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A0B5F9B2E15A324004B5CBE /* cricket-simulator-application */ = {
+			isa = PBXGroup;
+			children = (
+				7A0B5FCA2E15A473004B5CBE /* Consts */,
+				7A0B5FC72E15A430004B5CBE /* MatchViewController */,
+				7A0B5FC22E15A40F004B5CBE /* TeamsViewController */,
+				7A0B5F9C2E15A324004B5CBE /* AppDelegate.swift */,
+				7A0B5F9E2E15A324004B5CBE /* SceneDelegate.swift */,
+				7A0B5FA22E15A324004B5CBE /* Main.storyboard */,
+				7A0B5FA52E15A327004B5CBE /* Assets.xcassets */,
+				7A0B5FA72E15A327004B5CBE /* LaunchScreen.storyboard */,
+				7A0B5FAA2E15A327004B5CBE /* Info.plist */,
+			);
+			path = "cricket-simulator-application";
+			sourceTree = "<group>";
+		};
+		7A0B5FC22E15A40F004B5CBE /* TeamsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A0B5FC32E15A41F004B5CBE /* TeamsViewController.swift */,
+				7A0B5FC52E15A42C004B5CBE /* TeamsCollectionViewCell.swift */,
+			);
+			path = TeamsViewController;
+			sourceTree = "<group>";
+		};
+		7A0B5FC72E15A430004B5CBE /* MatchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A0B5FC82E15A441004B5CBE /* MatchViewController.swift */,
+				7A0B5FCD2E15A49A004B5CBE /* TeamScoreView.swift */,
+			);
+			path = MatchViewController;
+			sourceTree = "<group>";
+		};
+		7A0B5FCA2E15A473004B5CBE /* Consts */ = {
+			isa = PBXGroup;
+			children = (
+				7A0B5FCB2E15A47F004B5CBE /* Consts.swift */,
+			);
+			path = Consts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A0B5F982E15A324004B5CBE /* cricket-simulator-application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0B5FAD2E15A327004B5CBE /* Build configuration list for PBXNativeTarget "cricket-simulator-application" */;
+			buildPhases = (
+				7A0B5F952E15A324004B5CBE /* Sources */,
+				7A0B5F962E15A324004B5CBE /* Frameworks */,
+				7A0B5F972E15A324004B5CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cricket-simulator-application";
+			productName = "flipkart-match-app-ios";
+			productReference = 7A0B5F992E15A324004B5CBE /* cricket-simulator-application.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A0B5F912E15A324004B5CBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7A0B5F982E15A324004B5CBE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 7A0B5F942E15A324004B5CBE /* Build configuration list for PBXProject "cricket-simulator-application" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A0B5F902E15A324004B5CBE;
+			productRefGroup = 7A0B5F9A2E15A324004B5CBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A0B5F982E15A324004B5CBE /* cricket-simulator-application */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A0B5F972E15A324004B5CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0B5FA92E15A327004B5CBE /* LaunchScreen.storyboard in Resources */,
+				7A0B5FA62E15A327004B5CBE /* Assets.xcassets in Resources */,
+				7A0B5FA42E15A324004B5CBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A0B5F952E15A324004B5CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0B5F9D2E15A324004B5CBE /* AppDelegate.swift in Sources */,
+				7A0B5FCE2E15A49A004B5CBE /* TeamScoreView.swift in Sources */,
+				7A0B5FCC2E15A47F004B5CBE /* Consts.swift in Sources */,
+				7A0B5FC62E15A42C004B5CBE /* TeamsCollectionViewCell.swift in Sources */,
+				7A0B5FC42E15A41F004B5CBE /* TeamsViewController.swift in Sources */,
+				7A0B5F9F2E15A324004B5CBE /* SceneDelegate.swift in Sources */,
+				7A0B5FC92E15A441004B5CBE /* MatchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A0B5FA22E15A324004B5CBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A0B5FA32E15A324004B5CBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A0B5FA72E15A327004B5CBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A0B5FA82E15A327004B5CBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A0B5FAB2E15A327004B5CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A0B5FAC2E15A327004B5CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A0B5FAE2E15A327004B5CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cricket-simulator-application/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sachin-verma.cricket-simulator-application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A0B5FAF2E15A327004B5CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cricket-simulator-application/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sachin-verma.cricket-simulator-application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A0B5F942E15A324004B5CBE /* Build configuration list for PBXProject "cricket-simulator-application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0B5FAB2E15A327004B5CBE /* Debug */,
+				7A0B5FAC2E15A327004B5CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0B5FAD2E15A327004B5CBE /* Build configuration list for PBXNativeTarget "cricket-simulator-application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0B5FAE2E15A327004B5CBE /* Debug */,
+				7A0B5FAF2E15A327004B5CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A0B5F912E15A324004B5CBE /* Project object */;
+}
